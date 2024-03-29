@@ -10,7 +10,8 @@ print(car_data.head(20))
 #Exit para cerrar el ambiente del codigo en la terminal, no tocar o caera Roma
 #Segun un post encontrado en StackOverflow
 
-
+st.title('Creacion de Histrogramas')
+st.subheader('Lectura de archivo vehicle_us.csv', divider='blue')
 
 hist_button = st.button('Construir histograma') # crear un botón
         
